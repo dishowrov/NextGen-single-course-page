@@ -1,2 +1,2 @@
-*.css.map
-*.json
+styles.css.map
+package-lock.json

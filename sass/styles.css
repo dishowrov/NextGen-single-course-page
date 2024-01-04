@@ -2,4 +2,28 @@
   padding: 0;
   margin: 0;
   outline: 0;
+}
+
+#dis-ng-hero {
+  width: 1440px;
+}
+#dis-ng-hero .dis-ng-hero-left {
+  background: brown;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-left .dis-ng-hero-details-sale-price {
+  color: #FE7E41;
+  font-family: Plus Jakarta Sans;
+  font-size: 35px;
+  font-weight: 800;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-left .dis-ng-hero-details-main-price {
+  color: #C8C8C8;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration-line: line-through;
+  -moz-text-decoration-line: line-through;
+}
+#dis-ng-hero .dis-ng-hero-right {
+  background: tomato;
 }/*# sourceMappingURL=styles.css.map */

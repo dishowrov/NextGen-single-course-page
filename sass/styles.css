@@ -7,8 +7,17 @@
 #dis-ng-hero {
   width: 1440px;
 }
-#dis-ng-hero .dis-ng-hero-left {
-  background: brown;
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details {
+  padding-top: 17px;
+  max-width: 902px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-left {
+  display: flex;
+  gap: 23px;
+  align-items: flex-end;
 }
 #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-left .dis-ng-hero-details-sale-price {
   color: #FE7E41;
@@ -21,8 +30,46 @@
   font-family: Plus Jakarta Sans;
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 5px;
   text-decoration-line: line-through;
   -moz-text-decoration-line: line-through;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  align-items: center;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-right .dis-ng-hero-details-right-reviews {
+  display: flex;
+  justify-content: space-between;
+  gap: 11px;
+  align-items: center;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-right .dis-ng-hero-details-right-reviews h6 {
+  color: #64748B;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 600;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-right .dis-ng-hero-details-right-students {
+  display: flex;
+  justify-content: space-between;
+  gap: 11px;
+  align-items: center;
+  padding-top: 13px;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-right .dis-ng-hero-details-right-students p {
+  color: #64748B;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 600;
+}
+#dis-ng-hero .dis-ng-hero-left .dis-ng-hero-title h1 {
+  color: #2B354E;
+  font-family: IBM Plex Sans;
+  font-size: 38px;
+  font-weight: 700;
 }
 #dis-ng-hero .dis-ng-hero-right {
   background: tomato;

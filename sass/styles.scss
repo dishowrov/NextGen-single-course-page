@@ -6,10 +6,20 @@
 
 #dis-ng-hero {
     width: 1440px;
+    padding-top: 130px;
+    padding-bottom: 115px;
+
+    background: linear-gradient(180deg, #F2F1FF 0%, rgba(242, 241, 255, 0.00) 100%);
+
+    .col-md-8,
+    .col-md-4 {
+        padding: 0;
+        margin: 0;
+    }
 
     .dis-ng-hero-left {
         .dis-ng-hero-details {
-            padding-top: 17px;
+            padding-top: 21px;
             max-width: 902px;
             display: flex;
             justify-content: space-between;
@@ -81,11 +91,91 @@
                 font-family: IBM Plex Sans;
                 font-size: 38px;
                 font-weight: 700;
+                padding-top: 21px;
             }
         }
     }
 
     .dis-ng-hero-right {
-        background: tomato;
+        border-radius: 21px;
+        background: #FFF;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+
+        .dis-ng-hero-card {
+            padding: 35px 27px;
+
+            .dis-ng-hero-card-title {
+                color: #2B354E;
+                font-family: Plus Jakarta Sans;
+                font-size: 22px;
+                font-weight: 700;
+                margin: 0;
+                padding: 0 9px 33px 9px;
+                border-bottom: 1px dashed #70479B;
+            }
+
+            .dis-ng-hero-card-items {
+                ul {
+                    li {
+                        list-style-type: none;
+                        padding: 30px 9px;
+                        border-bottom: 1px solid rgba(119, 132, 137, 0.30);
+
+                        .dis-ng-hero-card-item-inner {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .dis-ng-hero-card-item-inner-left {
+                                color: #64748B;
+                                font-family: Plus Jakarta Sans;
+                                font-size: 18px;
+                                font-weight: 500;
+
+                                img {
+                                    margin-right: 15px;
+                                }
+                            }
+
+                            .dis-ng-hero-card-item-inner-right {
+                                color: #2B354E;
+                                font-family: Plus Jakarta Sans;
+                                font-size: 18px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .dis-ng-hero-card-btn {
+                padding-top: 25px;
+                text-align: center;
+
+                a {
+                    color: #FFF;
+                    font-family: Plus Jakarta Sans;
+                    font-size: 18px;
+                    font-weight: 600;
+                    border-radius: 65px;
+                    background: #70479B;
+                    padding: 17px 99px;
+                    border: 1px solid transparent;
+                    text-decoration: none;
+                    transition: all 0.3s linear;
+                    -webkit-transition: all 0.3s linear;
+                    -moz-transition: all 0.3s linear;
+                    -ms-transition: all 0.3s linear;
+                    -o-transition: all 0.3s linear;
+
+                    &:hover {
+                        border: 1px solid #70479B;
+                        color: #70479B;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+
     }
 }

@@ -194,7 +194,7 @@
             max-width: 370px;
 
             .dis-ng-description-sidebar-item {
-                padding-bottom: 20px;
+                margin-bottom: 20px;
             }
 
             .dis-ng-sidebar-item-MBG {
@@ -223,6 +223,109 @@
 
                     img {
                         margin-top: 15px;
+                    }
+                }
+
+                .dis-ng-sidebar-item-reviews-testimonial {
+                    .dis-ng-sidebar-item-reviews-TM-box {
+                        margin-top: 25px;
+                        border-radius: 6px;
+                        border: 1px solid rgba(23, 41, 87, 0.15);
+                        padding: 22px;
+
+                        .dis-ng-sidebar-item-reviews-TM-box-top {
+                            display: flex;
+                            justify-content: space-between;
+
+                            span {
+                                color: #2B354E;
+                                font-family: IBM Plex Sans;
+                                font-size: 20px;
+                                font-weight: 600;
+                            }
+                        }
+
+                        .dis-ng-sidebar-item-reviews-TM-box-bottom {
+                            p {
+                                text-align: left;
+                                margin-top: 12px;
+                                color: #64748B;
+                                font-family: Plus Jakarta Sans;
+                                font-size: 13px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+
+                .dis-ng-sidebar-item-reviews-btn {
+                    padding-top: 15px;
+
+                    a {
+                        color: #ED4266;
+                        font-family: Plus Jakarta Sans;
+                        font-size: 12px;
+                        font-weight: 600;
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+
+            .dis-ng-sidebar-item-student {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+
+                .dis-ng-sidebar-item-student-offer {
+                    background: url('../assets/life-time-offer-bg.jpg') no-repeat;
+                    padding: 29px 55px 41px 55px;
+                    text-align: center;
+
+                    h4 {
+                        margin-top: 15px;
+                        font-family: Urbanist;
+                        font-size: 21px;
+                        font-weight: 500;
+                        color: #232323;
+                    }
+
+                    h3 {
+                        font-family: Urbanist;
+                        font-size: 22px;
+                        font-weight: 600;
+                        color: #232323;
+                        margin: 13px 15px 25px 15px;
+
+                        span {
+                            color: #5E1DA1;
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #FFF;
+                        font-family: Urbanist;
+                        font-size: 18px;
+                        font-weight: 600;
+                        display: flex;
+                        padding: 10px 70px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 8px;
+                        border-radius: 5px;
+                        background: linear-gradient(282deg, #70479B 9.01%, #172957 91.14%);
+                        border: 1px solid transparent;
+                        transition: all 0.3s ease-in-out;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        -moz-transition: all 0.3s ease-in-out;
+                        -ms-transition: all 0.3s ease-in-out;
+                        -o-transition: all 0.3s ease-in-out;
+
+                        &:hover {
+                            color: #70479B;
+                            background: transparent;
+                            border: 1px solid #5E1DA1;
+                        }
                     }
                 }
             }

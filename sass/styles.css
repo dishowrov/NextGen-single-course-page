@@ -4,9 +4,25 @@
   outline: 0;
 }
 
-#dis-ng-hero-wrapper {
-  background: linear-gradient(180deg, #F2F1FF 0%, rgba(242, 241, 255, 0) 100%);
+#dis-ng-single-course-page-wrapper {
+  position: relative;
 }
+#dis-ng-single-course-page-wrapper::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url("../assets/bg-animated-icons.png") no-repeat;
+  background-size: cover;
+  top: 307px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
 #dis-ng-hero-wrapper #dis-ng-hero {
   width: 1440px;
   padding-top: 130px;

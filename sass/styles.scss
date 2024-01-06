@@ -6,24 +6,8 @@
 
 #dis-ng-single-course-page-wrapper {
     position: relative;
-    // background: url('../assets/bg-shapes-and-icons.png') no-repeat center;
-    // background-size: cover;
-
-    &::after {
-        content: '';
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        background: url('../assets/bg-animated-icons.png') no-repeat;
-        background-size: cover;
-        top: 307px;
-        left: 50%;
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-}
+    background: url('../assets/full-bg.png') no-repeat center;
+    background-size: cover;
 }
 
 
@@ -344,9 +328,10 @@
 
                         &:hover {
                             color: #70479B;
-                            background: transparent;
+                            background: linear-gradient(282deg, rgba(112, 71, 155, 0.1) 9.01%, rgba(23, 41, 87, 0.2) 91.14%);
                             border: 1px solid #5E1DA1;
-                        }
+                        }                        
+
                     }
                 }
             }

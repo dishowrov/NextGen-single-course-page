@@ -340,6 +340,7 @@
 
 #dis-ng-slider-wrapper {
     #dis-ng-slider {
+        width: 1440px;
         padding-top: 430px;
         padding-bottom: 145px;
 
@@ -354,11 +355,11 @@
             .dis-ng-slider-sec-item {
                 //background-color: #FE7E41;
                 border: 0.745px solid #E6EAEE;
-                border-radius: 30px;
-                -webkit-border-radius: 30px;
-                -moz-border-radius: 30px;
-                -ms-border-radius: 30px;
-                -o-border-radius: 30px;
+                border-radius: 50px 50px 30px 30px;
+                -webkit-border-radius: 50px 50px 30px 30px;
+                -moz-border-radius: 50px 50px 30px 30px;
+                -ms-border-radius: 50px 50px 30px 30px;
+                -o-border-radius: 50px 50px 30px 30px;
 
                 .dis-ng-slider-sec-item-img {
                     margin: -1px;
@@ -369,7 +370,7 @@
                 }
 
                 .dis-ng-slider-sec-item-info {
-                    padding: 5px 45px 20px 15px;
+                    padding: 5px 85px 20px 15px;
 
                     h3 {
                         color: #2B354E;
@@ -405,7 +406,7 @@
 
                 .dis-ng-slider-sec-item-btns {
                     display: flex;
-                    gap: 15px;
+                    gap: 35px;
                     background-color: #F3F3FF;
                     padding: 15px 12px;
                     margin: -15px 2px 2px 2px;

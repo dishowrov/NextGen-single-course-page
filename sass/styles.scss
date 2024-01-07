@@ -351,9 +351,29 @@
             font-weight: 600;
         }
 
+        #dis-ng-slick-slider {
+            padding: 0px 90px;
+            position: relative;
+
+            .dis-ng-slick-slider-arrow {
+                background: transparent;
+                border: none;
+                position: absolute;
+                top: 45%;
+            }
+    
+            .dis-ng-slick-left-arrow {
+                left: 15px;
+            }
+            .dis-ng-slick-right-arrow {
+                right: 15px;
+            }
+        }
+
         .dis-ng-slider-sec-all-items {
+            // background-color: gray;
+
             .dis-ng-slider-sec-item {
-                //background-color: #FE7E41;
                 border: 0.745px solid #E6EAEE;
                 border-radius: 50px 50px 30px 30px;
                 -webkit-border-radius: 50px 50px 30px 30px;
@@ -370,7 +390,7 @@
                 }
 
                 .dis-ng-slider-sec-item-info {
-                    padding: 5px 85px 20px 15px;
+                    padding: 5px 75px 20px 15px;
 
                     h3 {
                         color: #2B354E;
@@ -472,6 +492,8 @@
                     }
 
                 }
+
+
 
             }
         }

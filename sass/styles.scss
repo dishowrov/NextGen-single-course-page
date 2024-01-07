@@ -404,14 +404,72 @@
                 }
 
                 .dis-ng-slider-sec-item-btns {
+                    display: flex;
+                    gap: 15px;
                     background-color: #F3F3FF;
                     padding: 15px 12px;
-                    margin: 15px 2px 2px 2px;
+                    margin: -15px 2px 2px 2px;
                     border-radius: 0 0 28px 28px;
                     -webkit-border-radius: 0 0 28px 28px;
                     -moz-border-radius: 0 0 28px 28px;
                     -ms-border-radius: 0 0 28px 28px;
                     -o-border-radius: 0 0 28px 28px;
+
+                    .dis-ng-slider-sec-item-btn {
+                        a {
+                            text-decoration: none;
+                            font-family: IBM Plex Sans;
+                            font-size: 14px;
+                            font-weight: 600;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            height: 35px;
+                            width: 100%;
+                            border: 1px solid transparent;
+                            border-radius: 18px;
+                            -webkit-border-radius: 18px;
+                            -moz-border-radius: 18px;
+                            -ms-border-radius: 18px;
+                            -o-border-radius: 18px;
+                            transition: all linear 0.3s;
+                            -webkit-transition: all linear 0.3s;
+                            -moz-transition: all linear 0.3s;
+                            -ms-transition: all linear 0.3s;
+                            -o-transition: all linear 0.3s;
+                        }
+                    }
+
+                    .dis-ng-slider-btn-one {
+                        width: 50%;
+
+                        a {
+                            color: #2B354E;
+                            background-color: #FFFFFF;
+
+                            &:hover {
+                                color: #FFFFFF;
+                                background-color: #2B354E;
+                                border: 1px solid #2B354E;
+                            }
+                        }
+                    }
+
+                    .dis-ng-slider-btn-two {
+                        width: 50%;
+
+                        a {
+                            color: #FFFFFF;
+                            background-color: #70479B;
+
+                            &:hover {
+                                color: #70479B;
+                                background-color: #FFFFFF;
+                                border: 1px solid #70479B;
+                            }
+                        }
+                    }
+
                 }
 
             }

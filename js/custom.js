@@ -11,7 +11,6 @@ $("#dis-ng-slick-slider").slick({
       breakpoint: 1024,  
       settings: {
         slidesToShow: 3,
-        dots: true,
       },
     },
     {

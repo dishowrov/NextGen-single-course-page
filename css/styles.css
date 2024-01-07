@@ -277,3 +277,23 @@
   background: linear-gradient(282deg, rgba(112, 71, 155, 0.1) 9.01%, rgba(23, 41, 87, 0.2) 91.14%);
   border: 1px solid #5E1DA1;
 }
+
+#dis-ng-slider-wrapper #dis-ng-slider {
+  padding-top: 430px;
+  padding-bottom: 145px;
+}
+#dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-title {
+  color: #2B354E;
+  font-family: IBM Plex Sans;
+  font-size: 45px;
+  font-weight: 600;
+}
+#dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-all-items {
+  background-color: tomato;
+}
+#dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-all-items .dis-ng-slider-sec-item {
+  background-color: #FE7E41;
+}
+#dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-all-items .dis-ng-slider-sec-item .dis-ng-slider-sec-item-img img {
+  width: 100%;
+}

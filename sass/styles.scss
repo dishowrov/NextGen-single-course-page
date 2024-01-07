@@ -337,3 +337,31 @@
         }
     }
 }
+
+#dis-ng-slider-wrapper {
+    #dis-ng-slider {
+        padding-top: 430px;
+        padding-bottom: 145px;
+
+        .dis-ng-slider-sec-title {
+            color: #2B354E;
+            font-family: IBM Plex Sans;
+            font-size: 45px;
+            font-weight: 600;
+        }
+
+        .dis-ng-slider-sec-all-items {
+            background-color: tomato;
+
+            .dis-ng-slider-sec-item {
+                background-color: #FE7E41;
+
+                .dis-ng-slider-sec-item-img {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

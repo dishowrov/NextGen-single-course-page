@@ -353,9 +353,9 @@
                 }
 
                 .dis-ng-sidebar-item-student-card {
-                    img {
-                        width: 100%;
-                    }
+                    // img {
+                    //   width: 100%;
+                    // }
 
                     .dis-ng-student-id-card-pc-view {
                         display: block;
@@ -370,8 +370,8 @@
     }
 }
 
-#dis-ng-slider-wrapper {
-    #dis-ng-slider {
+.dis-ng-slider-wrapper {
+    .dis-ng-slider {
         width: 1440px;
         padding-top: 430px;
         padding-bottom: 145px;
@@ -381,9 +381,10 @@
             font-family: IBM Plex Sans;
             font-size: 45px;
             font-weight: 600;
+            margin: 0px 90px 25px 90px;
         }
 
-        #dis-ng-slick-slider {
+        .dis-ng-slick-slider {
             padding: 0px 90px;
             position: relative;
 
@@ -392,6 +393,10 @@
                 border: none;
                 position: absolute;
                 top: 45%;
+
+                img {
+                    width: 100%;
+                }
             }
 
             .dis-ng-slick-left-arrow {
@@ -545,4 +550,12 @@
             }
         }
     }
+}
+
+#dis-ng-slider-mobile-wrapper {
+    display: none;
+}
+
+#dis-ng-slider-pc-wrapper {
+    display: block;
 }

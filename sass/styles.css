@@ -12,6 +12,7 @@
 
 #dis-ng-hero-wrapper #dis-ng-hero {
   width: 1440px;
+  max-width: 1435px;
   padding-top: 130px;
   padding-bottom: 115px;
 }
@@ -19,6 +20,9 @@
 #dis-ng-hero-wrapper #dis-ng-hero .col-md-4 {
   padding: 0;
   margin: 0;
+}
+#dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left {
+  background: transparent;
 }
 #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details {
   padding-top: 21px;

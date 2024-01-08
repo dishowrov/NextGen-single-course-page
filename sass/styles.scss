@@ -13,6 +13,7 @@
 #dis-ng-hero-wrapper {
     #dis-ng-hero {
         width: 1440px;
+        max-width: 1435px;
         padding-top: 130px;
         padding-bottom: 115px;
 
@@ -23,6 +24,8 @@
         }
 
         .dis-ng-hero-left {
+            background: transparent;
+
             .dis-ng-hero-details {
                 padding-top: 21px;
                 max-width: 902px;

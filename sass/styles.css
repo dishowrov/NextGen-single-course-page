@@ -5,7 +5,6 @@
 }
 
 #dis-ng-single-course-page-wrapper {
-  position: relative;
   background: url("../assets/full-bg-for-pc.png") no-repeat center;
   background-size: cover;
 }
@@ -176,6 +175,9 @@
 #dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-description-sidebar-item {
   margin-bottom: 20px;
 }
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-companies img {
+  width: 100%;
+}
 #dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-MBG {
   border-radius: 6px;
   border: 0.2px solid rgba(23, 41, 87, 0.15);
@@ -239,29 +241,30 @@
   gap: 20px;
   flex-direction: column;
 }
-#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-offer {
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-student-offer-pc-view {
+  display: block;
   background: url("../assets/life-time-offer-bg.jpg") no-repeat;
   padding: 29px 55px 41px 55px;
   text-align: center;
 }
-#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-offer h4 {
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-student-offer-pc-view h4 {
   margin-top: 15px;
   font-family: Urbanist;
   font-size: 21px;
   font-weight: 500;
   color: #232323;
 }
-#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-offer h3 {
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-student-offer-pc-view h3 {
   font-family: Urbanist;
   font-size: 22px;
   font-weight: 600;
   color: #232323;
   margin: 13px 15px 25px 15px;
 }
-#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-offer h3 span {
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-student-offer-pc-view h3 span {
   color: #5E1DA1;
 }
-#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-offer a {
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-student-offer-pc-view a {
   text-decoration: none;
   color: #FFF;
   font-family: Urbanist;
@@ -281,10 +284,22 @@
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-offer a:hover {
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-student-offer-pc-view a:hover {
   color: #70479B;
   background: linear-gradient(282deg, rgba(112, 71, 155, 0.1) 9.01%, rgba(23, 41, 87, 0.2) 91.14%);
   border: 1px solid #5E1DA1;
+}
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-student-offer-mobile-view {
+  display: none;
+}
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-card img {
+  width: 100%;
+}
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-card .dis-ng-student-id-card-pc-view {
+  display: block;
+}
+#dis-ng-description .dis-ng-description-sidebar .dis-ng-description-sidebar-items .dis-ng-sidebar-item-student .dis-ng-sidebar-item-student-card .dis-ng-student-id-card-mobile-view {
+  display: none;
 }
 
 #dis-ng-slider-wrapper #dis-ng-slider {

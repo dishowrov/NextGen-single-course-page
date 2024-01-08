@@ -5,7 +5,6 @@
 }
 
 #dis-ng-single-course-page-wrapper {
-    position: relative;
     background: url('../assets/full-bg-for-pc.png') no-repeat center;
     background-size: cover;
 }
@@ -209,6 +208,12 @@
                 margin-bottom: 20px;
             }
 
+            .dis-ng-sidebar-item-companies {
+                img {
+                    width: 100%;
+                }
+            }
+
             .dis-ng-sidebar-item-MBG {
                 border-radius: 6px;
                 border: 0.2px solid rgba(23, 41, 87, 0.15);
@@ -288,7 +293,8 @@
                 gap: 20px;
                 flex-direction: column;
 
-                .dis-ng-sidebar-item-student-offer {
+                .dis-ng-student-offer-pc-view {
+                    display: block;
                     background: url('../assets/life-time-offer-bg.jpg') no-repeat;
                     padding: 29px 55px 41px 55px;
                     text-align: center;
@@ -339,6 +345,24 @@
                             border: 1px solid #5E1DA1;
                         }
 
+                    }
+                }
+
+                .dis-ng-student-offer-mobile-view {
+                    display: none;
+                }
+
+                .dis-ng-sidebar-item-student-card {
+                    img {
+                        width: 100%;
+                    }
+
+                    .dis-ng-student-id-card-pc-view {
+                        display: block;
+                    }
+
+                    .dis-ng-student-id-card-mobile-view {
+                        display: none;
                     }
                 }
             }

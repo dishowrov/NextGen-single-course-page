@@ -11,24 +11,27 @@
 }
 
 #dis-ng-hero-wrapper {
+    background: transparent;
+
     #dis-ng-hero {
         width: 1440px;
-        max-width: 1435px;
         padding-top: 130px;
         padding-bottom: 115px;
 
-        .col-md-8,
-        .col-md-4 {
-            padding: 0;
-            margin: 0;
-        }
-
         .dis-ng-hero-left {
-            background: transparent;
+            display: flex;
+            flex-direction: column;
+
+            .dis-ng-hero-banner {
+                img {
+                    width: 100%;
+                }
+            }
 
             .dis-ng-hero-details {
                 padding-top: 21px;
-                max-width: 902px;
+                // max-width: 902px;
+                flex-wrap: wrap;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -94,6 +97,8 @@
             }
 
             .dis-ng-hero-title {
+                order: 1;
+
                 h1 {
                     color: #2B354E;
                     font-family: IBM Plex Sans;
@@ -150,6 +155,7 @@
                                     font-family: Plus Jakarta Sans;
                                     font-size: 18px;
                                     font-weight: 600;
+                                    text-align: right;
                                 }
                             }
                         }

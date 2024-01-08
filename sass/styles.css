@@ -10,23 +10,24 @@
   background-size: cover;
 }
 
+#dis-ng-hero-wrapper {
+  background: transparent;
+}
 #dis-ng-hero-wrapper #dis-ng-hero {
   width: 1440px;
-  max-width: 1435px;
   padding-top: 130px;
   padding-bottom: 115px;
 }
-#dis-ng-hero-wrapper #dis-ng-hero .col-md-8,
-#dis-ng-hero-wrapper #dis-ng-hero .col-md-4 {
-  padding: 0;
-  margin: 0;
-}
 #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left {
-  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+#dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-banner img {
+  width: 100%;
 }
 #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details {
   padding-top: 21px;
-  max-width: 902px;
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,6 +83,9 @@
   font-size: 16px;
   font-weight: 600;
 }
+#dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-title {
+  order: 1;
+}
 #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-title h1 {
   color: #2B354E;
   font-family: IBM Plex Sans;
@@ -130,6 +134,7 @@
   font-family: Plus Jakarta Sans;
   font-size: 18px;
   font-weight: 600;
+  text-align: right;
 }
 #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-btn {
   padding-top: 25px;

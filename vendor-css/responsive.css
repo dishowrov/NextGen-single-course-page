@@ -1,3 +1,80 @@
 @media (max-width: 1500px) {
-    
+    #dis-ng-hero-wrapper {
+        background: linear-gradient(180deg, #F2F1FF 0%, rgba(242, 241, 255, 0.00) 100%);
+    }
+
+    #dis-ng-hero-wrapper #dis-ng-hero {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 1390px) {
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-items ul li {
+        padding: 25px 9px;
+    }
+
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-items ul li .dis-ng-hero-card-item-inner .dis-ng-hero-card-item-inner-left {
+        font-size: 16px;
+    }
+
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-items ul li .dis-ng-hero-card-item-inner .dis-ng-hero-card-item-inner-right {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-title {
+        order: -1;
+        padding-bottom: 21px;
+    }
+
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-title h1 {
+        text-align: center;
+    }
+
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card {
+        margin-top: 35px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1085px) {
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-items ul li .dis-ng-hero-card-item-inner .dis-ng-hero-card-item-inner-left img {
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1390px) {
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-btn a {
+        font-size: 15px;
+        padding: 17px 45px;
+    }
+}
+
+@media (min-width: 265px) and (max-width: 545px) {
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-btn a {
+        font-size: 15px;
+        padding: 12px 55px;
+    }
+}
+
+@media (max-width: 568px) {
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-title h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details {
+        display: block;
+    }
+
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-left {
+        justify-content: center;
+    }
+
+    #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-right {
+        justify-content: center;
+    }
 }

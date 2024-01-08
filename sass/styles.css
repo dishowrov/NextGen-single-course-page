@@ -320,13 +320,25 @@
   width: 100%;
 }
 #dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-all-items .dis-ng-slider-sec-item .dis-ng-slider-sec-item-info {
-  padding: 5px 75px 20px 15px;
+  padding: 5px 5px 20px 15px;
 }
-#dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-all-items .dis-ng-slider-sec-item .dis-ng-slider-sec-item-info h3 {
+#dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-all-items .dis-ng-slider-sec-item .dis-ng-slider-sec-item-info h3 a {
+  display: block;
+  text-decoration: none;
   color: #2B354E;
   font-family: IBM Plex Sans;
   font-size: 18px;
   font-weight: 600;
+  padding-right: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 48px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-all-items .dis-ng-slider-sec-item .dis-ng-slider-sec-item-info h3 a:focus {
+  outline: none;
 }
 #dis-ng-slider-wrapper #dis-ng-slider .dis-ng-slider-sec-all-items .dis-ng-slider-sec-item .dis-ng-slider-sec-item-info .dis-ng-slider-sec-item-info-price {
   display: flex;

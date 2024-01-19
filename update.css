@@ -1,5 +1,5 @@
 #dis-ng-single-course-page-wrapper {
-    padding-top: 130px;
+    padding-top: 100px !important;
 }
 
 .dis-ng-hero-details .dis-ng-hero-details-left strong {
@@ -137,4 +137,10 @@
 
 .dis-ng-slider-sec-item-info-price i.icon-wallet-money.right {
     display: none
+}
+
+@media only-screen and (max-width: 1205px) {
+    #dis-ng-single-course-page-wrapper {
+        padding-top: 45px !important;
+    }
 }

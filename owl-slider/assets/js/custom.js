@@ -17,6 +17,6 @@ $(function () {
                 items: 4,
             }
         },
-        navText: [$('.am-next'), $('.am-prev')]
+        navText: [$('.am-prev'), $('.am-next')] 
     });
 });

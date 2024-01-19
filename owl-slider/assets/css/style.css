@@ -1,3 +1,5 @@
+.dis-carousel {}
+
 .dis-ng-slider-sec-item {
     border: 0.745px solid #E6EAEE;
     border-radius: 50px 50px 30px 30px;
@@ -29,9 +31,9 @@
     padding-right: 60px;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 48px;
+    height: 55px;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 
@@ -42,7 +44,7 @@
 .dis-ng-slider-sec-item .dis-ng-slider-sec-item-info .dis-ng-slider-sec-item-info-price {
     display: flex;
     gap: 5px;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .dis-ng-slider-sec-item .dis-ng-slider-sec-item-info .dis-ng-slider-sec-item-info-price .dis-ng-slider-sec-item-info-sale-price {
@@ -126,4 +128,65 @@
     color: #70479B;
     background-color: #FFFFFF;
     border: 1px solid #70479B;
+}
+
+
+/* Navigation part */
+
+.dis-slider-container {
+    max-width: 1261px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.dis-slider-container .owl-nav button:hover {
+    background-color: transparent !important;
+}
+
+.dis-slider-container .owl-nav button .am-prev i {
+    font-size: 21px;
+}
+
+.dis-slider-container .owl-nav button .am-next i {
+    font-size: 22px !important;
+}
+
+.dis-slider-container .owl-nav button {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: #70479B;
+    background: transparent;
+    padding: 17px 21px;
+    border: 3px solid #5B3485;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dis-slider-container .owl-nav .owl-prev {
+    left: 0 !important;
+}
+
+.dis-slider-container .owl-nav .owl-next {
+    right: 0 !important;
+}
+
+@media screen and (max-width:1423px) {
+
+    .dis-slider-container .owl-nav button {
+        top: 99%;
+    }
+
+    .dis-slider-container .owl-nav .owl-prev {
+        left: 0 !important;
+    }
+
+    .dis-slider-container .owl-nav .owl-next {
+        right: 0 !important;
+    }
 }

@@ -1,0 +1,16 @@
+#dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-btn a {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 65px;
+    background: #70479b !important;
+    padding: 17px !important;
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}

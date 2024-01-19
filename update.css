@@ -17,6 +17,7 @@
     margin-top: 10px;
     opacity: 1;
     color: #C8C8C8;
+    margin-bottom: 5px;
 }
 
 .dis-ng-hero-details del span.woocommerce-Price-amount.amount {
@@ -31,7 +32,7 @@
 }
 
 .dis-ng-hero-details-left i.icon-wallet-money.right {
-    margin-bottom: 5px;
+    display: none;
 }
 
 /* right part */
@@ -119,7 +120,8 @@
     font-weight: 700;
     margin-top: 10px;
     opacity: 1;
-    color: #C8C8C8
+    color: #C8C8C8;
+    margin-bottom: 5px;
 }
 
 .dis-ng-slider-sec-item-info-price del span.woocommerce-Price-amount.amount {
@@ -134,5 +136,5 @@
 }
 
 .dis-ng-slider-sec-item-info-price i.icon-wallet-money.right {
-    /* margin-bottom: 5px; */
+    display: none
 }

@@ -4,6 +4,7 @@ $(function () {
         items: 4,
         margin: 15,
         loop: true,
+        navText: [$('.am-prev'), $('.am-next')],
         nav: true,
         dots: false,
         responsive: {
@@ -17,6 +18,5 @@ $(function () {
                 items: 4,
             }
         },
-        navText: [$('.am-prev'), $('.am-next')] 
     });
 });

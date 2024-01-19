@@ -16,6 +16,7 @@
     font-weight: 600;
     margin-top: 10px;
     opacity: 1;
+    color: #C8C8C8;
 }
 
 .dis-ng-hero-details del span.woocommerce-Price-amount.amount {
@@ -61,4 +62,77 @@
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
+}
+
+
+/* Accordion */
+#dis-ng-description-wrapper tbody>tr {
+    margin-bottom: 15px !important
+}
+
+#dis-ng-description-wrapper tbody>tr.course_section td {
+    border: 1px solid #E2E8F0;
+    background: #FFF;
+    border-radius: 15px !important;
+    color: #2B354E;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 15px
+}
+
+#dis-ng-description .course_curriculum.accordion .course_section>td:after {
+    right: 15px;
+    top: 15px;
+}
+
+/* Slider */
+.dis-ng-slider-sec-item .dis-ng-slider-sec-item-info h3 a {
+    display: block;
+    text-decoration: none;
+    color: #2b354e;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 70px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.dis-ng-slider-sec-item-info-price strong {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    flex-direction: row-reverse;
+}
+
+.dis-ng-slider-sec-item-info-price del {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    opacity: 1;
+    color: #C8C8C8
+}
+
+.dis-ng-slider-sec-item-info-price del span.woocommerce-Price-amount.amount {
+    color: #C8C8C8 !important;
+}
+
+.dis-ng-slider-sec-item-info-price ins span.woocommerce-Price-amount.amount {
+    color: #FE7E41;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.dis-ng-slider-sec-item-info-price i.icon-wallet-money.right {
+    /* margin-bottom: 5px; */
 }

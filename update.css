@@ -65,6 +65,12 @@
     -o-transition: all 0.3s linear;
 }
 
+#dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-right .dis-ng-hero-card .dis-ng-hero-card-btn a:hover {
+    color: #70479b;
+    background-color: transparent;
+    border: 1px solid #70479b;
+}
+
 
 /* Accordion */
 #dis-ng-description-wrapper tbody>tr {
@@ -139,8 +145,14 @@
     display: none
 }
 
-@media only-screen and (max-width: 1205px) {
+@media (min-width: 568px) and (max-width: 1205px) {
     #dis-ng-single-course-page-wrapper {
         padding-top: 45px !important;
+    }
+}
+
+@media screen and (max-width: 567.98px) {
+    #dis-ng-single-course-page-wrapper {
+        padding-top: 0px !important;
     }
 }

@@ -175,7 +175,7 @@
     right: 0 !important;
 }
 
-@media screen and (max-width:1423px) {
+@media screen and (max-width: 1423px) {
 
     .dis-slider-container .owl-nav button {
         top: 99%;

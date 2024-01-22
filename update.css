@@ -1,5 +1,5 @@
 #dis-ng-single-course-page-wrapper {
-    padding-top: 100px !important;
+    padding-top: 185px !important;
 }
 
 /* Left part started */
@@ -161,20 +161,18 @@
 .dis-ng-slider-sec-item-info-price i.icon-wallet-money.right {
     display: none
 }
+
+.dis-slider-container .dis-carousel>.owl-nav.disabled {
+    display: block;
+}
 /* Slider part ended */
 
 
 
 /* ========= Media Queries ========= */
 
-@media (min-width: 568px) and (max-width: 1205px) {
+@media screen and (max-width: 991px) {
     #dis-ng-single-course-page-wrapper {
-        padding-top: 21px !important;
-    }
-}
-
-@media screen and (max-width: 567.98px) {
-    #dis-ng-single-course-page-wrapper {
-        padding-top: 0px !important;
+        padding-top: 50px !important;
     }
 }

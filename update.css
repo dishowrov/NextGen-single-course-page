@@ -35,6 +35,14 @@
     display: none;
 }
 
+#dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-title h1 {
+    color: #2b354e;
+    font-family: IBM Plex Sans;
+    font-size: 38px;
+    font-weight: 700;
+    padding: 0;
+}
+
 /* right part */
 
 #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-right .dis-ng-hero-details-right-reviews {

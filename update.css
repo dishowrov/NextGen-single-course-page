@@ -162,8 +162,16 @@
     display: none
 }
 
+/* !!!!!!!!!! to display nav arrows */
 .dis-slider-container .dis-carousel>.owl-nav.disabled {
     display: block;
+}
+
+/* !!!!!!!!!! to display in all mode. It will be override on responsive.css's code */
+@media screen and (max-width: 685px) {
+    #dis-ng-slider-pc-wrapper {
+        display: block !important;
+    }
 }
 /* Slider part ended */
 

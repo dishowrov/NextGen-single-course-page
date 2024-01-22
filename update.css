@@ -2,6 +2,7 @@
     padding-top: 100px !important;
 }
 
+/* Left part started */
 .dis-ng-hero-details .dis-ng-hero-details-left strong {
     display: flex;
     align-items: center;
@@ -42,9 +43,10 @@
     font-weight: 700;
     padding: 0;
 }
+/* Left part started */
 
-/* right part */
 
+/* Right part started */
 #dis-ng-hero-wrapper #dis-ng-hero .dis-ng-hero-left .dis-ng-hero-details .dis-ng-hero-details-right .dis-ng-hero-details-right-reviews {
     display: flex;
     justify-content: space-between;
@@ -78,9 +80,11 @@
     background-color: transparent;
     border: 1px solid #70479b;
 }
+/* Right part started */
 
 
-/* Accordion */
+
+/* Accordion part started */
 #dis-ng-description-wrapper tbody>tr {
     margin-bottom: 15px !important
 }
@@ -102,8 +106,10 @@
     right: 15px;
     top: 15px;
 }
+/* Accordion part started */
 
-/* Slider */
+
+/* Slider part started */
 .dis-ng-slider-sec-item .dis-ng-slider-sec-item-info h3 a {
     display: block;
     text-decoration: none;
@@ -152,6 +158,11 @@
 .dis-ng-slider-sec-item-info-price i.icon-wallet-money.right {
     display: none
 }
+/* Slider part started */
+
+
+
+/* ========= Media Queries ========= */
 
 @media (min-width: 568px) and (max-width: 1205px) {
     #dis-ng-single-course-page-wrapper {

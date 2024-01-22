@@ -162,6 +162,10 @@
     display: none
 }
 
+.dis-carousel>.owl-nav.disabled {
+    display: block;
+}
+
 /* Slider part started */
 
 

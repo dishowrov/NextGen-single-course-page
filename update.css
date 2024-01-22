@@ -229,3 +229,29 @@
         right: 55px !important;
     }
 }
+
+
+
+.dis-ng-slider-wrapper .dis-ng-slider {
+    width: 1440px;
+    padding-top: 125px;
+    padding-bottom: 145px;
+}
+
+
+@media (max-width: 1500px) {
+    .dis-ng-slider-wrapper .dis-ng-slider {
+        width: 100%;
+        padding-top: 125px !important;
+        padding-bottom: 45px;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 1499px) {
+    .dis-ng-slider-wrapper .dis-ng-slider {
+        width: 100%;
+        padding-top: 45px !important;
+        padding-bottom: 45px;
+    }
+}

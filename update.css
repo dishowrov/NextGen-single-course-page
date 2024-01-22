@@ -43,6 +43,7 @@
     font-weight: 700;
     padding: 0;
 }
+
 /* Left part started */
 
 
@@ -80,6 +81,7 @@
     background-color: transparent;
     border: 1px solid #70479b;
 }
+
 /* Right part started */
 
 
@@ -106,6 +108,7 @@
     right: 15px;
     top: 15px;
 }
+
 /* Accordion part started */
 
 
@@ -158,6 +161,7 @@
 .dis-ng-slider-sec-item-info-price i.icon-wallet-money.right {
     display: none
 }
+
 /* Slider part started */
 
 

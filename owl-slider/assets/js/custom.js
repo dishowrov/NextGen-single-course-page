@@ -11,6 +11,9 @@ $(function () {
             "<i aria-hidden='true' class='fas fa-chevron-right'></i>",
         ],
         responsive: {
+            1024: {
+                items: 4
+            },
             768: {
                 items: 3,
             },

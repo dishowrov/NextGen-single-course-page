@@ -168,13 +168,15 @@
 }
 
 .dis-slider-container .owl-nav .owl-prev {
-    left: 0 !important;
+    left: -60px !important;
 }
 
 .dis-slider-container .owl-nav .owl-next {
     right: 0 !important;
 }
 
+
+/* !!!!!!!!!!!!!!! updated */
 .dis-slider-container .dis-carousel>.owl-nav.disabled {
     display: block;
 }

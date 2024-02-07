@@ -258,9 +258,9 @@
 
 /* More updated CSS are given below */
 
-@media only screen and (max-width: 1199px) {
+/* @media only screen and (max-width: 1199px) {
     #dis-ng-description .dis-ng-description-sidebar {
         display: grid;
         justify-items: center !important;
     }
-}
+} */
